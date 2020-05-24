@@ -2,3 +2,11 @@ GET http://{{host}}:{{port}}
 Accept: text/plain
 
 ###
+GET http://{{host}}:{{port}}/hello
+Accept: text/plain
+
+###
+GET http://{{host}}:{{port}}/hello?name=test
+Accept: text/plain
+
+###
